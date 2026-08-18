@@ -13,6 +13,8 @@ try:
     from firstpersonviewcontroller import *
     import dependicies
     from dependicies import *
+    import newflightcontroller
+    from newflightcontroller import *
 except ImportError as missing:
     print("An error happened. Maybe a file is missing?", missing)
 print("Autopilot Ready -- All files are present and ready")
